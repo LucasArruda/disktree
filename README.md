@@ -23,7 +23,7 @@ it, and run `./install.sh` inside (or just copy `disktree` onto your
 `PATH`). Or build it:
 
 ```sh
-git clone [https://github.com/tobi/disktree](https://github.com/tobi/disktree)
+git clone https://github.com/tobi/disktree
 cd disktree
 make install
 ```
@@ -71,7 +71,8 @@ disktree --help     # options: apparent size, follow links, skip hidden, …
   last write, and for a checkout what git says — changes, stashes, unpushed
   commits); *Worth a look*, the largest things that could plausibly go;
   what is marked; and the disk, free now and after the marks, with the way
-  to the review screen. Drag its left edge to resize it; double-click the edge to reset.
+  to the review screen. Drag its left edge to resize it; double-click the
+  edge to reset.
 
 One colour is kept apart: amber marks the selection, the main action, and
 what can be had back.
