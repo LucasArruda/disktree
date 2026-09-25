@@ -28,7 +28,7 @@ cd disktree
 make install
 ```
 
-`make install` builds a release binary and puts three things under `~/.local`
+`make install`* builds a release binary and puts three things under `~/.local`
 (no root needed):
 
 - `~/.local/bin/disktree`
@@ -40,7 +40,7 @@ make install
 `sudo make install PREFIX=/usr/local` installs system-wide; `make uninstall`
 removes exactly what was installed.
 
-> **Note:** You need Rust 1.97 or newer installed on your system. macOS does not come with Rust by default, and while some Linux distributions might, you will likely need to install it via [rustup](https://rustup.rs/). You also need a Wayland or X11 session with a GPU that GPUI can drive (Vulkan).
+> ***Note:** You need Rust 1.97 or newer installed on your system. macOS does not come with Rust by default, and while some Linux distributions might, you will likely need to install it via [rustup](https://rustup.rs/). You also need a Wayland or X11 session with a GPU that GPUI can drive (Vulkan).
 
 ## Use
 
